@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
+// @import "node_modules/bootstrap/scss/functions";
+// @import "node_modules/bootstrap/scss/variables";
+// @import "node_modules/bootstrap/scss/mixins";
 *{
     padding: 0;
     margin: 0;
@@ -22,12 +27,13 @@ body{
     /* position: fixed; */
     position: fixed;
 }
-.navbar{
+.navbar-parent{
     background-color: red;
     height: 70px;
     width: 1200px;
     border-radius: 20px;
     position: fixed;
+
 }
 
 .logo-design{
@@ -36,14 +42,8 @@ body{
     margin: 0px 0px 0px 30px;
 }
 
-.container-fluid{
+.content-floating-navbar{
     display: flex;
-
-   @include media-breakpoint-only{
-
-   }
-
-//continue coding this part of the code
 }
 
 .navigation-options{
@@ -59,7 +59,6 @@ body{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-      
 }
 
 

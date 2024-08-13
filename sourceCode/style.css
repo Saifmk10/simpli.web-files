@@ -1,58 +1,61 @@
-@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  /* text-decoration: none; */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    /* text-decoration: none; */
+}
+body{
+    background-color: #F2F2F2;
+    padding: 10px;
 }
 
-body {
-  background-color: #F2F2F2;
-  padding: 10px;
+.home-layout-parent{
+    background-color: #151515;
+    height: 615px;
+    border-radius: 20px;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    
+}
+.nav-bar-fixed{
+    
+    /* position: fixed; */
+    position: fixed;
 }
 
-.home-layout-parent {
-  background-color: #151515;
-  height: 615px;
-  border-radius: 20px;
-  padding: 0px 20px 0px 20px;
+
+.logo-design{
+    height: 80px;
+    width: auto;
+    margin: 0px 0px 0px 30px;
 }
 
-.nav-bar-fixed {
-  /* position: fixed; */
-  position: fixed;
-}
-
-.navbar {
+.content-floating-navbar{
   background-color: red;
   height: 70px;
   width: 1200px;
   border-radius: 20px;
-  position: fixed;
+  display: grid;
+  grid-template-columns: 100px 50px 50px 50px 50px 50px;
+
 }
 
-.logo-design {
-  height: 80px;
-  width: auto;
-  margin: 0px 0px 0px 30px;
+.navigation-options{
+    display: flex;
+    gap: 40px;
+    margin: 30px 0px 0px 0px;
+}
+.options-decor{
+    text-decoration: none;
+    color: #F2F2F2;
+    
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
-.container-fluid {
-  display: flex;
-}
 
-.navigation-options {
-  display: flex;
-  gap: 40px;
-  margin: 30px 0px 0px 0px;
-}
-
-.options-decor {
-  text-decoration: none;
-  color: #F2F2F2;
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-}
-
-/*# sourceMappingURL=style.css.map */
