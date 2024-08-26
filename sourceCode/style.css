@@ -18,7 +18,7 @@ body{
 
 
 
-
+/* laptop large screen */
 @media (max-width:1440px){
     .home-layout-parent{
         background-color:var(--primary-color-black);
@@ -26,6 +26,7 @@ body{
         border-radius: 20px;
         padding: 0px 20px 0px 20px;
         display: flex;
+        /* justify-content: center; */
     }
     
     
@@ -83,7 +84,32 @@ body{
         margin: 16px 0px 0px 250px;
         
     }
+
+    .home-content-parent{
+        display: grid;
+        grid-template-columns: 400px 500px;
+        margin: 0px 0px 0px 130px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .temp-image-design{
+        height: 340px;
+        width: auto;
+    }
+
+    .home-page-intro{
+        color: var(--secondary-color-white);
+        font-family: "Azeret Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 4vh;
+        word-spacing: 10px;
+    }
 }
+
+
 
 /* tablet screen */
 @media(max-width:768px) {
@@ -96,6 +122,15 @@ body{
     }
     .hamburger-design{
         display: none;
+    }
+
+    .home-content-parent{
+        display: grid;
+        grid-template-columns: 350px 320px;
+        margin: 0px 0px 0px 10px;
+        
+        justify-content: center;
+        align-items: center;
     }
 }
 
