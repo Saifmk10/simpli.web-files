@@ -142,25 +142,12 @@ body{
 /* mobile screen (large) */
 @media(max-width :426px){
     .home-layout-parent{
-        height: 400px;
-    }
-
-    .home-layout-parent{
-        height: 500px;
-        padding: 0px 20px 0px 20px;
+        height: 780px;
     }
 
     .content-floating-navbar{
         width: 87%;
         margin: 0px 0px 0px -8px;
-    }
-
-    .home-layout-parent{
-        height: 560px;   
-    }
-
-    .home-layout-parent{
-        height: 850px;   
     }
 
     .navigation-options{
@@ -172,7 +159,7 @@ body{
         height: 45px;
         width: auto;
         padding: 10px;
-        margin: 3px 0px 0px 120px;
+        margin: 3px 0px 0px 130px;
     }
 
     .content-floating-navbar{
@@ -182,9 +169,9 @@ body{
     .home-content-parent{
         display: grid;
         /* grid-template-rows: 350px 320px; */
-        grid-template-rows: 270px 250px;
+        grid-template-rows: 300px 250px;
         grid-template-columns: none;
-        margin: 110px 0px 0px 0px;
+        margin: 120px 0px 0px 0px;
         
     
         justify-items: center;
@@ -200,6 +187,10 @@ body{
 
 /* mobile screen medium */
 @media (max-width: 376px){
+
+    .home-layout-parent{
+        height: 775px;
+    }
     
     .content-floating-navbar{
         width: 87%;
@@ -211,19 +202,19 @@ body{
         height: 45px;
         width: auto;
         padding: 10px;
-        margin: 3px 0px 0px 90px;
+        margin: 3px 0px 0px 100px;
     }
 
     .home-content-parent{
         display: grid;
-        /* grid-template-rows: 350px 320px; */
-        grid-template-rows: 270px 250px;
+        grid-template-rows: 280px 250px;
         grid-template-columns: none;
-        margin: 110px 0px 0px 0px;
+        margin: 120px 0px 0px 0px;
         
     
         justify-items: center;  
         align-items: center; 
     }
 }
+
 /* testing has been taken place and this comment is used to start a pull request */
