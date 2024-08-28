@@ -113,8 +113,11 @@ body{
 
 /* tablet screen */
 @media(max-width:768px) {
+    .content-floating-navbar{
+        width: 94%;      
+      }
+    
     .navigation-options{
-        /* display: none; */
         margin: 30px 0px 0px 150px;
     }
     .lets-talk-button{
@@ -139,6 +142,10 @@ body{
 @media(max-width :426px){
 
     .home-layout-parent{
+        height: 560px;   
+    }
+
+    .home-layout-parent{
         height: 850px;   
     }
 
@@ -158,11 +165,33 @@ body{
         width: 90%;
         
     }
+
+    .home-content-parent{
+        display: grid;
+        /* grid-template-rows: 350px 320px; */
+        grid-template-rows: 300px 250px;
+        grid-template-columns: none;
+        margin: 140px 0px 0px 0px;
+        
+    
+        justify-items: center;
+        align-items: center; 
+    }
+
+    .temp-image-design{
+        height: 200px;
+        width: auto;
+    }
 }
 
 
 /* mobile screen medium */
 @media (max-width: 376px){
+    
+    .content-floating-navbar{
+        width: 89%;
+      }
+    
     .hamburger-design{
         display: inline;
         height: 45px;
