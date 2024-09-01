@@ -21,6 +21,9 @@ body{
 
 /* laptop large screen */
 @media (max-width:1440px){
+    /* home page starting */
+    /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
     .home-layout-parent{
         background-color:var(--primary-color-black);
         height: 615px;
@@ -108,6 +111,9 @@ body{
         font-size: 4vh;
         word-spacing: 10px;
     }
+
+    /* starting of about us section */
+    /* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
 }
 
 
