@@ -277,7 +277,7 @@ body{
         height: 45px;
         width: auto;
         padding: 10px;
-        margin: 3px 0px 0px 130px;
+        margin: 3px 0px 0px 120px;
     }
 
     .content-floating-navbar{
@@ -357,7 +357,7 @@ body{
         height: 45px;
         width: auto;
         padding: 10px;
-        margin: 3px 0px 0px 70px;
+        margin: 3px 0px 0px 90px;
     }
 
     .home-content-parent{
@@ -395,7 +395,3 @@ body{
     }
 
 }
-
-/* testing has been taken place and this comment is used to start a pull request */
-/* new changes have been made for the about us */
-/* testing pull request for the about is */
