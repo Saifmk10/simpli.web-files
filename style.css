@@ -396,6 +396,16 @@ body{
 
 }
 
+
+@media (max-width: 320px){
+
+    .content-floating-navbar{
+        width: 84%;
+        margin: 0px 0px 0px -5px;
+    }
+
+}
+
 /* testing has been taken place and this comment is used to start a pull request */
 /* new changes have been made for the about us */
 /* testing pull request for the about is */
