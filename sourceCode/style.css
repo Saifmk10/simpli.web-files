@@ -201,6 +201,89 @@ body{
         width: 400px;
     }
 
+
+    /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+    /* starting of our services section code */
+    .content-division-services{
+        display: flex;
+        align-items: center;
+        background-color: var(--tirnary-color-fadedWhite);
+        height: 30px;
+        border-radius: 13px;
+        margin: 9px 0px 10px 0px;
+        padding: 10px;
+    }
+
+    .main-content-services{
+        height: 480px;
+        background-color:var(--tirnary-color-fadedWhite);
+        border-radius: 13px;
+
+        /* display: grid; */
+        /* grid-template-rows: 200px 200px; */
+        /* grid-template-columns: 300px 300px; */
+
+        display: flex;
+        gap: 120px;
+    }
+
+    /* potential bug will be formed above */
+
+    .ui-ux-design-content-parent{
+        margin: 45px 0px 0px 0px;
+        width: 400px;
+    }
+
+
+
+    .ui-ux-heading{
+        font-family: "Azeret Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 450;
+        font-style: normal;
+        padding: 5px;
+        font-size: 3.2vh;
+    }
+
+    .ui-ux-para{
+        font-family: "Bai Jamjuree", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding: 5px;
+        font-size: 2.5vh;
+    }
+
+    .types-of-design-content-parent{
+        margin: 35px 0px 0px 0px;
+        width: 450px;
+    }
+
+
+    .parallel-placement-heading{
+        display: flex;
+        
+        gap: 60px;
+    }
+
+    /* this is used to make the array and the text a display flex */
+    .types-display{
+        display: flex;
+    }
+
+    .arrow-design{
+        height: 25px;
+        width: auto;
+    }
+
+    .content-names{
+        font-family: "Azeret Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 350;
+        font-style: normal;
+        margin: 0px 0px 0px 10px;
+        font-size: 3.2vh;
+    }
+
 }
 
 
