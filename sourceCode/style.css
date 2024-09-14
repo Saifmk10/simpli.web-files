@@ -218,20 +218,16 @@ body{
         height: 480px;
         background-color:var(--tirnary-color-fadedWhite);
         border-radius: 13px;
-
-        /* display: grid; */
-        /* grid-template-rows: 200px 200px; */
-        /* grid-template-columns: 300px 300px; */
-
         display: flex;
         gap: 120px;
     }
 
-    /* potential bug will be formed above */
-
+    
     .ui-ux-design-content-parent{
         margin: 45px 0px 0px 0px;
         width: 400px;
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -255,19 +251,26 @@ body{
 
     .types-of-design-content-parent{
         margin: 35px 0px 0px 0px;
-        width: 450px;
+        width: 470px;
     }
 
 
     .parallel-placement-heading{
         display: flex;
+        /* flex-direction: column; */
+        gap: 40px;
         
-        gap: 60px;
     }
 
     /* this is used to make the array and the text a display flex */
     .types-display{
         display: flex;
+    }
+    .additional{
+        margin: 0px 0px 0px 25px;
+    }
+    .additional-p-d{
+        margin: 0px 0px 0px 15px;
     }
 
     .arrow-design{
@@ -416,6 +419,44 @@ body{
         background-color:var(--tirnary-color-fadedWhite);
         border-radius: 13px;
     }
+
+
+    /* services section decor */
+
+    .types-of-design-content-parent{
+        margin: 35px 0px 0px 20px;
+        width: 300px;
+    }
+
+
+    .main-content-services{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .heading-text-decor{
+        width: 350px;
+        margin: 0px 0px 0px -20px;
+    }
+
+    .parallel-placement-heading{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;   
+        width: 250px;
+    }
+
+    .additional{
+        margin: 0px 0px 0px 2px;
+    }
+    .additional-f{
+        margin: 0px 0px 0px -10px;
+    }
+    .additional-p-d{
+        margin: 0px 0px 0px 5px;
+    }
+    
 }
 
 
